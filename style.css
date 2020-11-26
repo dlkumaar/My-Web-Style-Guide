@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 4% 8%;
+}
+
+header {
+}
+
+.color-box {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.color-box h2 {
+  flex-basis: 100%;
+}
+.color-box .swatch {
+  height: 60px;
+  margin: 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  display: block;
+}
+.blue {
+  background-color: #2d5dcc;
+  flex-basis: 33%;
+}
+
+.pink {
+  background-color: #d957d9;
+  flex-basis: 33%;
+}
+.mint-green {
+  background-color: #4fe0b0;
+  flex-basis: 33%;
+}
+.beige {
+  flex-basis: 33%;
+  background-color: #efd9ca;
+}
+
+.fonts {
+  margin-top: 50px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 2%;
+}
+
+.fonts h2 {
+  flex-basis: 100%;
+}
+
+.family {
+  flex-basis: 50%;
+  margin-top: 20px;
+}
+
+.source-code-pro h3 {
+  text-decoration: underline;
+}
+.nunito-sans h3 {
+  text-decoration: underline;
+}
+.poppins h3 {
+  text-decoration: underline;
+}
+
+.text-styles {
+  margin-top: 50px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2%;
+}
+
+ul {
+  padding-left: 30px;
+}
